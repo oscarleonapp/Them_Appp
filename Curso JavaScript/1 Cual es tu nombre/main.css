@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+
+main {
+    width: 256px;
+    min-width: 256px;
+    height: 150px;
+    background-color: #6387B8;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+#nombre {
+    margin-left: 30%;
+}
