@@ -60,6 +60,7 @@ nav a {
     background-color: #ffffff;
     padding: 1rem;
     margin-top: 10px;
+    margin-bottom: 10px;
     text-align: justify;
     box-shadow: 5px 5px 5px #d9e8fb;
     border-radius: 4px 4px 4px 4px;
@@ -68,4 +69,13 @@ nav a {
 section p {
     margin-left: 3px;
     margin-right: 3px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+section h2 {
+text-align: center;
 }

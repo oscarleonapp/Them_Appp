@@ -2,19 +2,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Desarrollo Front End</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JS</a>
-        <a href="#">Git</a>
-        <a href="#">Diccionario</a>
+        <a href="index.html">Inicio</a>
+        <a href="/pages/curso_html.html">HTML</a>
+        <a href="/pages/curso_css.html">CSS</a>
+        <a href="/pages/curso_js.html">JS</a>
+        <a href="/pages/curso_git.html">Git</a>
+        <a href="/pages/diccionario_cursos.html">Diccionario</a>
     </nav>
+    <section class="card">
+        <h2>CURSO FRONT-END</h2>
+        <a href="https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer" target="_blank">Mozilla Developers</a>
+    </section>
     <section class="card">
         <h4>Revisar</h4>
         <a href="https://www.youtube.com/watch?v=Nn7H1SN8WUo&list=PL4ONm-ifcbQIu7Mxtmphop3llWQL7vtSw&index=2" target="_blank">Entidades de caracteres</a><br>
@@ -42,7 +46,36 @@
     </section>
     <section class="card">
         <h4>Entidades de caracteres</h4>
+        <p>En HTML existen caracteres que no pueden ser utilizados ya que son interpretados por el navegador como código.</p>
+        <table>
+            <tr>
+                <td>Caracter</td>
+                <td>Entidad</td>
+                <td>Nota</td>
+            </tr>
+            <tr>
+                <td>&</td>
+                <td>&<span>amp;</span></td>
+                <td>Interpretado como el comienzo de una entidad HTML</td>
+            </tr>
+            <tr>
+                <td>&lt;</td>
+                <td>&<span>lt;</span></td>
+                <td>Interpretado como la apertura de una etiqueta</td>
+            </tr>
+            <tr>
+                <td>&gt;</td>
+                <td>&<span>gt;</span></td>
+                <td>Interpretado como el cierre de una etiqueta</td>
+            </tr>
+            <tr>
+                <td>"</td>
+                <td>&<span>quot;</span></td>
+                <td>Intepretado como apertura o cierre del valor de un atributo</td>
+            </tr>
+        </table>
     </section>
+    <footer><p>Todos los Derechos reservados Oscar León 2022</p></footer>
 </body>
 
 </html>
