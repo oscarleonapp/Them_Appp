@@ -13,6 +13,10 @@ body {
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     background-color: #3e416d;
     border-radius: 3px;
