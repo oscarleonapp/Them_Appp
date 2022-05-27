@@ -1,0 +1,82 @@
+* { box-sizing: border-box;}
+html, body {height: 100%;}
+body{
+    background-color: #f0f5fd;
+    color: #4d4d87;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #3e416d;
+    border-radius: 3px;
+    height: 1.5rem;
+    padding-top: 3px;    
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.paleta {
+    color: #4d4d87;
+    color: #ffffff;
+    color: #d9e8fb;
+    color: #f0f5fd;
+    color: #62d76b;
+    /*Resultados*/
+    color: #96bcef;
+    color: #d9e8fb;
+    color: #3e416d;
+    color: #1e96ff;
+    color: #3f426e;
+    color: #b0b2be;
+    /*Texto*/
+    color: #9553f1;
+    /*Sombra*/
+}
+
+a {
+    color: #b0b2be;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+section {
+    background-color:#ffffff;
+    border-radius: 3px 3px 3px 3px;
+}
+
+/*Dedicatoria*/
+.dedicatoria {
+text-decoration: solid;
+}
+
+fieldset {
+    margin-top: 2px;
+    border-color: #9553f1;
+    border-radius: 5px 5px 5px 5px;
+}
+
+section .nota {
+    margin-top: 2px;
+    margin-bottom: 2px1;
+}
+
+.nota p {
+    color: #1e96ff;
+}
+
+/*Division*/
+.card {
+    width: 100%;
+    max-width: 100%;
+    min-width:50%;
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 0.1rem;
+    margin-top: 5px;
+}
