@@ -1,24 +1,32 @@
-* { box-sizing: border-box;}
-html, body {height: 100%;}
-body{
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
     color: #3f426e;
     background-color: #f0f5fd;
     font-family: sans-serif;
-
 }
 
 nav {
     background-color: #3e416d;
     border-radius: 3px;
-    height: 1.5rem;
-    padding-top: 3px;    
+    height: 2rem;
+    padding-top: 7px;
 }
 
 nav a {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
+    color: #d9e8fb;
+    text-decoration: none;
+    padding-left: 1rem;
 }
-
 
 .paleta {
     color: #4d4d87;
@@ -38,25 +46,22 @@ nav a {
     /*Sombra*/
 }
 
-a {
-    color: #b0b2be;
-    text-decoration: none;
-    padding-left: 1rem;
-}
 
 /*Division*/
+
 .card {
     width: 100%;
     max-width: 100%;
-    min-width:50%;
-    border-radius: 3px;
+    min-width: 50%;
     background-color: #ffffff;
-    padding: 0.1rem;
-    margin-top: 5px;
-    text-align:justify;
+    padding: 1rem;
+    margin-top: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 5px #d9e8fb;
+    border-radius: 4px 4px 4px 4px;
 }
 
- section p {
+section p {
     margin-left: 3px;
     margin-right: 3px;
- }
+}
