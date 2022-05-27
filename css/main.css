@@ -44,17 +44,6 @@ a {
     padding-left: 1rem;
 }
 
-fieldset {
-    margin-top: 2px;
-    border-color: #9553f1;
-    border-radius: 5px 5px 5px 5px;
-    text-align: center;
-}
-
-section .card {
-color: white;
-}
-
 /*Division*/
 .card {
     width: 100%;
@@ -64,4 +53,10 @@ color: white;
     background-color: #ffffff;
     padding: 0.1rem;
     margin-top: 5px;
+    text-align:justify;
 }
+
+ section p {
+    margin-left: 3px;
+    margin-right: 3px;
+ }
