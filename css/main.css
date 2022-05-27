@@ -1,11 +1,10 @@
 * { box-sizing: border-box;}
 html, body {height: 100%;}
 body{
+    color: #3f426e;
     background-color: #f0f5fd;
-    color: #4d4d87;
     font-family: sans-serif;
-    justify-content: center;
-    align-items: center;
+
 }
 
 nav {
@@ -45,29 +44,15 @@ a {
     padding-left: 1rem;
 }
 
-section {
-    background-color:#ffffff;
-    border-radius: 3px 3px 3px 3px;
-}
-
-/*Dedicatoria*/
-.dedicatoria {
-text-decoration: solid;
-}
-
 fieldset {
     margin-top: 2px;
     border-color: #9553f1;
     border-radius: 5px 5px 5px 5px;
+    text-align: center;
 }
 
-section .nota {
-    margin-top: 2px;
-    margin-bottom: 2px1;
-}
-
-.nota p {
-    color: #1e96ff;
+section .card {
+color: white;
 }
 
 /*Division*/
