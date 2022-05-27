@@ -1,3 +1,4 @@
+/*CONFIGURATIONS*/
 * {
     box-sizing: border-box;
 }
@@ -13,10 +14,12 @@ body {
     font-family: sans-serif;
 }
 
+/*ETIQUETA ANCLA*/
 a {
     text-decoration: none;
 }
 
+/*NAVBAR*/
 nav {
     background-color: #3e416d;
     border-radius: 3px;
@@ -32,6 +35,7 @@ nav a {
     padding-left: 1rem;
 }
 
+/*PALETA DE COLORES*/
 .paleta {
     color: #4d4d87;
     color: #ffffff;
@@ -51,8 +55,7 @@ nav a {
 }
 
 
-/*Division*/
-
+/*CARD*/
 .card {
     width: 100%;
     max-width: 100%;
@@ -61,21 +64,77 @@ nav a {
     padding: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: justify;
     box-shadow: 5px 5px 5px #d9e8fb;
     border-radius: 4px 4px 4px 4px;
 }
 
+/*SECTION*/
 section p {
     margin-left: 3px;
     margin-right: 3px;
 }
 
-footer p {
-    text-align: center;
-    margin-top: 2rem;
+section img {
+    width: 100%;
 }
 
 section h2 {
 text-align: center;
 }
+
+section h4 {
+    text-decoration: underline;
+}
+
+/*ARTICLE*/
+article {
+    width: 100%;
+    max-width: 100%;
+    min-width: 50%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+article h2 {
+    text-align: center;
+}
+article p {
+    text-align: center;
+}
+
+/*FOOTER*/
+footer p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/*RESPUESTAS A LAS PREGUNTAS*/
+button {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #f0f5fd;
+    box-shadow: 5px 5px 5px #d9e8fb;
+    border-radius: 4px 4px 4px 4px
+}
+
+/*CODIGO*/
+.fondo {
+    background-color: #3e416d;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.etiqueta {
+    color: #62d76b;
+}
+
+.atributo {
+    color:#9553f1;
+}
+
+.enfasis {
+    color: #1e96ff;
+}
+
+/*SIMULAR UNA NAVEGADOR*/

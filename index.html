@@ -28,21 +28,47 @@
     <section class="card">
         <h4>Abrir enlace en una nueva pestaña</h4>
         <p>
-            Para realizar esta acción bastará con añadir el atributo target a la etiqueta
-            <strong><<span>a href="#" target="_blank"></span></strong> Enlace <strong><<span>/a></span></strong>
+            Para realizar esta acción bastará con añadir el atributo target a la etiqueta, vea el siguiente ejemplo: <br><br>
+            <span class="fondo">&lt;a href="#" target="_blank"&gt;</spand> Enlace &lt;/a&gt;
         </p>
-        <p>Ejemplo: <a href="/index.html" target="_blank" rel="noopener noreferrer">Click</a></p>
-        <p>NOTA: Por seguridad se debe agregar el atributo rel="noopener noreferrer"</p>
+        <p>Ejemplo: <a href="/index.html" target="_blank" rel="noopener noreferrer"><strong>Click</strong></a></p>
+        <p>NOTA: Por seguridad se debe agregar el atributo <span class="fondo">rel="noopener noreferrer"</span></p>
     </section>
     <section class="card">
         <h4>Cambiar el título de la página</h4>
-        <p>Dirigirse al código y ubicar la etiqueta <strong><<span>head><</span>/head></strong> dentro de ella agregar la etiqueta <strong><<span>title><</span>/title></strong> y ahora escribe el titulo que desees. <br><br> Este aparecerá en la parte superior
+        <p>Dirigirse al código y ubicar la etiqueta <spand class="fondo">&lt;head&gt;&lt;/head&gt;</spand> dentro de ella agregar la etiqueta <strong><<span>title><</span>/title></strong> y ahora escribe el titulo que desees. 
+            <br>
+            <br> 
+            Este aparecerá en la parte superior
             de tu navegador, el que indica el nombre de tu pestaña.</p>
+            <p class="fondo">
+                &lt;!<span class="etiqueta">DOCTYPE html</span>&gt;
+                <br>
+                &lt;<span class="etiqueta">html</span>&gt;
+                <br>
+                &lt;<span class="enfasis">head</span>&gt;
+                <br>
+                &lt;<span class="enfasis">title</span>&gt;Mi página web&lt;/<span class="enfasis">title</span>&gt;
+                <br>
+                &lt;/<span class="enfasis">head</span>&gt;
+                <br>
+                &lt;<span class="etiqueta">body</span>&gt;
+                <br>
+                &lt;/<span class="etiqueta">body</span>&gt;
+                <br>
+                &lt;/<span class="etiqueta">html</span>&gt;
+                <br>
+                
+            </p>
     </section>
     <section class="card">
         <h4>Enlace con imágenes</h4>
-        <p>Puedes lograr esto rodeando la itequeta <strong><<span>img></strong> con la etiqueta <strong><<span>a></strong></p>
-        <p>Ejemplo: a href="www.google.com"> img source="/gatos.png" alt="gatos"> /a></p>
+        <p>Puedes lograr esto rodeando la itequeta <strong>&lt;img src=""&gt;</strong> con la etiqueta <strong>&lt;a&gt;</strong></p>
+        <p class="fondo">&lt;a href="www.google.com">&lt;img source="/gatos.png" alt="gatos"&gt;&lt;/a&gt;</p>
+        <a href="https://www.ngenespanol.com/naturaleza/7-datos-debes-saber-sobre-gatos/" target="_blank" rel="noopener noreferrer">
+        <img src="https://dam.ngenespanol.com/wp-content/uploads/2019/02/gato-dia-internacional-768x394.png" alt="Gato bebe">
+        </a>
+        <p>Fuente: <a href="https://www.ngenespanol.com/naturaleza/7-datos-debes-saber-sobre-gatos/" target="_blank" rel="noopener noreferrer"> National Geographic en español</a></p>
     </section>
     <section class="card">
         <h4>Entidades de caracteres</h4>
