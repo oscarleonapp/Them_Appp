@@ -16,7 +16,7 @@ body {
 
 /*ETIQUETA ANCLA*/
 a {
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 /*NAVBAR*/
@@ -25,6 +25,13 @@ nav {
     border-radius: 3px;
     height: 2rem;
     padding-top: 7px;
+
+}
+
+.fexed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 nav a {
@@ -65,7 +72,7 @@ nav a {
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px #d9e8fb;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 3px 3px 3px 3px;
 }
 
 /*SECTION*/
@@ -75,7 +82,9 @@ section p {
 }
 
 section img {
-    width: 100%;
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
 }
 
 section h2 {
@@ -114,10 +123,10 @@ button {
     margin-bottom: 2px;
     background-color: #f0f5fd;
     box-shadow: 5px 5px 5px #d9e8fb;
-    border-radius: 4px 4px 4px 4px
+    border-radius: 3px 3px 3px 3px;
 }
 
-/*CODIGO*/
+/*CODIGO IDE*/
 .fondo {
     background-color: #3e416d;
     color: #ffffff;
@@ -137,4 +146,40 @@ button {
     color: #1e96ff;
 }
 
+/*TABLAS*/
+
+table {
+    background-color: #3e416d;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px 3px 3px 3px;
+}
+
+tr {
+    color:#d9e8fb;
+    background-color:#4d4d87
+}
+
+td {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 4px;
+}
+
+table td tr .tr1 {
+background-color: #96bcef;
+}
+
+/*IMAGENES*/
+img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.correcta {
+    background-color: #3f426e;
+    color: #d9e8fb;
+}
 /*SIMULAR UNA NAVEGADOR*/
