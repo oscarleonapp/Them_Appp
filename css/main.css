@@ -19,6 +19,10 @@ a {
     text-decoration: none; 
 }
 
+.activa {
+    color: #62d76b;
+}
+
 /*NAVBAR*/
 nav {
     background-color: #3e416d;
