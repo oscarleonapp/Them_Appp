@@ -182,4 +182,10 @@ img {
     background-color: #3f426e;
     color: #d9e8fb;
 }
+
+/*Encabezados HTML*/
+.ejemplo {
+    text-align: left;
+    text-decoration: none;
+}
 /*SIMULAR UNA NAVEGADOR*/
