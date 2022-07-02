@@ -1,107 +1,74 @@
 <!DOCTYPE html>
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="/css/main.css">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-End</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <script defer src="js/index.js"></script>
+
 </head>
 
 <body>
-    <nav class="fixed">
-        <a href="index.html" class="activa">Inicio</a>
-        <a href="/pages/curso_html.html">HTML</a>
-        <a href="/pages/curso_css.html">CSS</a>
-        <a href="/pages/curso_js.html">JS</a>
-        <a href="/pages/curso_git.html">Git</a>
-        <a href="/pages/diccionario_cursos.html">Diccionario</a>
-    </nav>
-    <section class="card">
-        <h2>CURSO FRONT-END</h2>
-        <a href="https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer" target="_blank">Mozilla Developers</a>
-    </section>
-    <section class="card">
-        <h4>Revisar</h4>
-        <a href="https://www.youtube.com/watch?v=Nn7H1SN8WUo&list=PL4ONm-ifcbQIu7Mxtmphop3llWQL7vtSw&index=2" target="_blank">Entidades de caracteres</a><br>
-        <a href="https://www.freecodecamp.org/espanol/news/como-crear-un-formulario-responsivo-con-funcionalidad-de-filtro-usando-html-css-y-javascript/" target="_blank">Tabla con filtro</a><br>
-        <a href="https://www.freecodecamp.org/espanol/news/10-comandos-de-git-que-todo-desarrollador-debe-conocer/" target="_blank">Comandos GIT</a><br>
-    </section>
-    <section class="card">
-        <h4>Abrir enlace en una nueva pestaña</h4>
-        <p>
-            Para realizar esta acción bastará con añadir el atributo target a la etiqueta, vea el siguiente ejemplo: <br><br>
-            <span class="fondo">&lt;a href="#" target="_blank"&gt;</spand> Enlace &lt;/a&gt;
-        </p>
-        <p>Ejemplo: <a href="/index.html" target="_blank" rel="noopener noreferrer"><strong>Click</strong></a></p>
-        <p>NOTA: Por seguridad se debe agregar el atributo <span class="fondo">rel="noopener noreferrer"</span></p>
-    </section>
-    <section class="card">
-        <h4>Cambiar el título de la página</h4>
-        <p>Dirigirse al código y ubicar la etiqueta <spand class="fondo">&lt;head&gt;&lt;/head&gt;</spand><br><br>dentro de ella agregar la etiqueta <spand class="fondo">&lt;title&gt;&lt;/title&gt;</spand> y ahora escribe el titulo que desees. 
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">Front End</a>
+            <button class="nav-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link nav-menu-link_active">HTML</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">CSS</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">JS</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Diccionario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+            <h3>¡Recomendaciones!</h3>
+            <p>Shift + alt + F = formatear texto en VScode</p>
+
             <br>
-            <br> 
-            Este aparecerá en la parte superior
-            de tu navegador, el que indica el nombre de tu pestaña.</p>
-            <p class="fondo">
-                &lt;!<span class="etiqueta">DOCTYPE html</span>&gt;
-                <br>
-                &lt;<span class="etiqueta">html</span>&gt;
-                <br>
-                &lt;<span class="enfasis">head</span>&gt;
-                <br>
-                &lt;<span class="enfasis">title</span>&gt;Mi página web&lt;/<span class="enfasis">title</span>&gt;
-                <br>
-                &lt;/<span class="enfasis">head</span>&gt;
-                <br>
-                &lt;<span class="etiqueta">body</span>&gt;
-                <br>
-                &lt;/<span class="etiqueta">body</span>&gt;
-                <br>
-                &lt;/<span class="etiqueta">html</span>&gt;
-                <br>
-                
-            </p>
-    </section>
-    <section class="card">
-        <h4>Enlace con imágenes</h4>
-        <p>Puedes lograr esto rodeando la itequeta <spand class="fondo">&lt;img src=""&gt;</spand> con la etiqueta <spand class="fondo">&lt;a&gt;</spand></p>
-        <p class="fondo">&lt;a href="www.google.com">&lt;img source="/gatos.png" alt="gatos"&gt;&lt;/a&gt;</p>
-        <a href="https://www.ngenespanol.com/naturaleza/7-datos-debes-saber-sobre-gatos/" target="_blank" rel="noopener noreferrer">
-        <img src="https://dam.ngenespanol.com/wp-content/uploads/2019/02/gato-dia-internacional-768x394.png" alt="Gato bebe">
-        </a>
-        <p>Fuente: <a href="https://www.ngenespanol.com/naturaleza/7-datos-debes-saber-sobre-gatos/" target="_blank" rel="noopener noreferrer"> National Geographic en español</a></p>
-    </section>
-    <section class="card">
-        <h4>Entidades de caracteres</h4>
-        <p>En HTML existen caracteres que no pueden ser utilizados ya que son interpretados por el navegador como código.</p>
-        <table>
-            <tr>
-                <td>Caracter</td>
-                <td>Entidad</td>
-                <td>Nota</td>
-            </tr>
-            <tr>
-                <td>&</td>
-                <td>&<span>amp;</span></td>
-                <td>Interpretado como el comienzo de una entidad HTML</td>
-            </tr>
-            <tr>
-                <td>&lt;</td>
-                <td>&<span>lt;</span></td>
-                <td>Interpretado como la apertura de una etiqueta</td>
-            </tr>
-            <tr>
-                <td>&gt;</td>
-                <td>&<span>gt;</span></td>
-                <td>Interpretado como el cierre de una etiqueta</td>
-            </tr>
-            <tr>
-                <td>"</td>
-                <td>&<span>quot;</span></td>
-                <td>Intepretado como apertura o cierre del valor de un atributo</td>
-            </tr>
-        </table>
-    </section>
-    <footer><p>Todos los Derechos reservados Oscar León 2022</p></footer>
+            <br>
+
+            <article>
+                <h3>DESARROLLO FRONT-END</h3>
+                <p>El desarrollo Web comprende tres tecnologìas, HTML, CSS y JavaScript</p>
+            </article>
+
+            <br>
+
+            <article>
+                <h2>Cursos por visualizar</h2>
+                <ol>
+                    <li><a href="https://www.youtube.com/watch?v=xQstBIPeOdU">Como construir una NAV responsibe</a></li>
+                </ol>
+            </article>
+
+            <br>
+            <br>
+
+            <article>
+                <h2>Resumen del curso SoyDalto HTML5</h2>
+                <ol>
+                    <li>
+                        Instalar el editor de texto que deseemos, Sublime Tex, VSCode
+                    </li>
+                </ol>
+                <p>Hola mundo Esto es una prueba del navbar
+                </p>
+                <p>HTML no es para estilos, se utiliza para estructurar el sitio web.</p>
+            </article>
+            
+        </section>
+
+    </main>
 </body>
 
 </html>
