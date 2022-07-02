@@ -6,10 +6,15 @@
 body {
   font-family: sans-serif;
   padding: 90px 20px 0;
+  color: #777;
+}
+
+h2{
+  color: #50597b;
 }
 
 .header {
-  background-color: #0769e9;
+  background-color: #1f253d;
   height: 80px;
   position: fixed;
   width: 100%;
@@ -26,7 +31,7 @@ body {
 }
 
 .nav-link {
-  color: white;
+  color: #FCB150;
   text-decoration: none;
 }
 
@@ -58,13 +63,13 @@ body {
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
-  background-color: #034574;
+  background-color: #11a8ab;
   transition: 0.5s;
 }
 
 /* TOGGLE */
 .nav-toggle {
-  color: white;
+  color: #FCB150;
   background: none;
   border: none;
   font-size: 30px;
@@ -95,7 +100,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    background-color: #2c3e50;
+    background-color: #11a8ab;
     position: fixed;
     top: 60px;
     width: 100%;
@@ -115,7 +120,7 @@ body {
   .nav-menu-link:hover,
   .nav-menu-link_active {
     background: none;
-    color: #83c5f7;
+    color: #1f253d;
   }
 
   .nav-toggle {
