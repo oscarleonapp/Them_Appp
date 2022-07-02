@@ -1,137 +1,42 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  padding: 90px 20px 0;
-  color: #777;
-}
-
-h2{
-  color: #50597b;
-}
-
-.header {
-  background-color: #3f426e;
-  height: 40px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-
-  max-width: 992px;
-  margin: 0 auto;
-}
-
-.nav-link {
-  color: #FCB150;
-  text-decoration: none;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-  padding: 0 20px;
-  line-height: 38px;
-}
-
-.nav-menu {
-  display: flex;
-  margin-right: 40px;
-  list-style: none;
-}
-
-.nav-menu-item {
-  font-size: 16px;
-  margin: 0 10px;
-  line-height: 39px;
-  text-transform: uppercase;
-  width: max-content;
-}
-
-.nav-menu-link {
-  padding: 8px 12px;
-  border-radius: 3px;
-}
-
-.nav-menu-link:hover,
-.nav-menu-link_active {
-  background-color: #ffffff;
-  transition: 0.5s;
-}
-
-/* TOGGLE */
-.nav-toggle {
-  color: #FCB150;
-  background: none;
-  border: none;
-  font-size: 25px;
-  padding: 0 20px;
-  line-height: 38px;
-  cursor: pointer;
-
-  display: none;
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-  body {
-    padding-top: 70px;
-  }
-
-  .header {
-    height: 40px;
-  }
-
-  .logo {
-    font-size: 18px;
-    padding: 0 20px;
-    line-height: 38px;
-  }
-
-  .nav-menu {
-    flex-direction: column;
+header {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin: 0;
-    background-color: #1f253d;
-    position: fixed;
-    top: 35px;
-    width: 100%;
-    padding: 10px 0;
+    padding: .5rem 2rem;
+}
 
-    height: calc(100% 60px);
-    overflow-y: auto;
+.logo-header img {
+    width: 50px;
+}
 
-    left: 100%;
-    transition: left 0.3s;
-  }
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+}
 
-  .nav-menu-item {
-    line-height: 70px;
-  }
+.nav-menu li {
+    margin-right: 1rem;
+}
 
-  .nav-menu-link:hover,
-  .nav-menu-link_active {
-    background: none;
-    color: #ffffff;
-  }
+.nav-menu a {
+    color: #fff;
+}
 
-  .nav-toggle {
-    display: block;
-  }
+.nav-menu li:last-child {
+    background: #4ad295;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
 
-  .nav-menu_visible {
-    left: 0;
-  }
+.menu-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
 
-  .nav-toggle:focus:not(:focus-visible) {
-    outline: none;
-  }
+.menu-icon,
+#check {
+    display: none;
 }

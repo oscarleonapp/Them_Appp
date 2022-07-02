@@ -16,17 +16,21 @@
 
 <body>
     <header class="header">
-        <nav class="nav">
-            <a href="#" class="logo nav-link">Front End</a>
-            <button class="nav-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Inicio</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link nav-menu-link_active">HTML</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">CSS</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">JS</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Diccionario</a></li>
+        <div class="logo-header">
+            <a href=""><img src="img/Dropcoding.svg" alt=""></a>
+        </div>
+        <div class="nav-menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="menu-icon"><img src="img/menu.svg" alt=""></i>
+            </label>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="/quien-soy.html">Quien Soy</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
         <section>
@@ -65,7 +69,7 @@
                 </p>
                 <p>HTML no es para estilos, se utiliza para estructurar el sitio web.</p>
             </article>
-            
+
         </section>
 
     </main>
