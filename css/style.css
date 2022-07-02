@@ -216,7 +216,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "Nivel 1";
+    content: "Básico";
 }
 .about .about-content .left{
     width: 45%;
