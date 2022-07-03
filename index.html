@@ -63,14 +63,13 @@
                 </div>
                 -->
             <div class="column right">
-                <h3>Archivo index.html</h3>
-                <p>Los <strong>servidores</strong> tienen en su configuración interna mostrar como primer página el
-                    archivo. <br>
-                    <br> Por ejemplo: Entras a tu navegador y buscas www.facebook.com, el sitio de Facebook tiene muchas
-                    páginas internas y seria una tarea imposible para el servidor saber que página seleccionar de entre
-                    todas para mostrartela.<br>
-                    <br> Es por ello que se configura un index, para decirle al servidor esta es la págia que deseo que
-                    muestres cuando me busquen.
+                <h3>¿Qué es HTML?</h3>
+                <p>
+                    No es la parte bonita de la web, eso se hace con otro lenguaje, con html creamos los pilares de la página, toda su estructura. <br>
+                    <br>
+                    Para comprender esto, utilizaremos una analogía; somos unos arquitectos y vamos a construir una casa. Iniciamos colocando las columnas, paredes, techo, espacio para puertas y ventanas. En programación esto es HTML. <br>
+                    <br>Pero aún le falta mucho, el estilo de las puertas y ventanas, el color de la casa, las plantas que adornan, los cuadros, los sillones, etc., eso lo hacemos con CSS. <br>
+                    <br> Ahora que comprendes que es HTML, y que debes preocuparte solo por la estructura y no por su apariencia, podemos continuar.
                 </p>
                 <br>
                 <h3>Tipos de archivos</h3>
@@ -80,9 +79,19 @@
                     de Excel son xls, los de Photoshop PSD y los de html son .html.
                 </p>
                 <br>
-                <h3>Estructura inicial</h3>
+                <h3>Archivo index.html</h3>
+                <p>Los servidores tienen en su configuración interna mostrar como primer página el
+                    archivo. <br>
+                    <br> Por ejemplo: Entras a tu navegador y buscas www.facebook.com, el sitio de Facebook tiene muchas
+                    páginas internas y seria una tarea imposible para el servidor saber que página seleccionar de entre
+                    todas para mostrartela.<br>
+                    <br> Es por ello que se configura un index, para decirle al servidor esta es la págia que deseo que
+                    muestres cuando me busquen.
+                </p>
+                <br>
+                <h3>Sintaxis</h3>
                 <p>
-                    En HTML existe una sintaxis, la cual debemos seguir para poder estructurar bien nuestro sitio web.
+                    En HTML existen reglas para escribir el código, las cuales debemos seguir para poder estructurar bien nuestro sitio web.
                     Es parecido a la sintaxis cuando hablamos, no lo hacemos de manera desordena, siempre lleva una
                     lógica y estructura. <br>
                     <br>
@@ -145,33 +154,27 @@
                     </tr>
                     <tr>
                         <td>1)</td>
-                        <td>h1</td>
-                        <td>Encabezado de primer nivel</td>
-                        <td>&lt;h1&gt;&lt;/h1&gt;</td>
-                    </tr>
-                    <tr>
-                        <td>2)</td>
-                        <td>br</td>
-                        <td>Crea un salto de línea</td>
-                        <td>&lt;br&gt;</td>
-                    </tr>
-                    <tr>
-                        <td>3)</td>
                         <td>DOCTYPE</td>
                         <td>Indica la versión de html</td>
                         <td>&lt;!DOCTYPE html&gt;</td>
                     </tr>
                     <tr>
-                        <td>4)</td>
+                        <td>2)</td>
                         <td>html</td>
                         <td>Contiene toda la página web</td>
                         <td>&lt;html&gt;&lt;/html&gt;</td>
                     </tr>
                     <tr>
-                        <td>5)</td>
+                        <td>3)</td>
                         <td>head</td>
                         <td>Almacena todo lo que no se muestra al usuario</td>
                         <td>&lt;head&gt;&lt;/head&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>4)</td>
+                        <td>body</td>
+                        <td>Almacena todo lo que si se muestra al usuario</td>
+                        <td>&lt;body&gt;&lt;/body&gt;</td>
                     </tr>
                 </table>
                 <br>
@@ -222,7 +225,7 @@
                     &lt;!DOCTYPE html&gt; <br>
                     &lt;html&gt; <br>
                     &lt;head&gt; <br>
-                    &lt;title&gt;ejercicio 1&lt;/title&gt; <br>
+                    &lt;title&gt;Primera página web&lt;/title&gt; <br>
                     &lt;/head&gt;
                     &lt;body&gt; <br>
                     &lt;h1&gt;¡Hola mundo!&lt;/h1&gt; <br>
@@ -233,10 +236,16 @@
                 <br>
                 <p>Explicación del código <br>
                     <br> El !DOCTYPE indica que el documento es de tipo html en su última versión (v5). <br>
-                    <br> La etiqueta html contiene toda la página, lo que se muestra al usuario como lo que no. <br>
-                    <br> Head, acá programaremos todo aquello que el usuario no verá, a excepción de la etiqueta title. <br>
+                    <br> Html, contiene toda la página, lo que se muestra al usuario como lo que no. <br>
+                    <br> Head, acá programaremos todo aquello que el usuario no verá, a excepción de la etiqueta title. Acá es donde se colocan las configuraciones y enlaces de la página. <br>
                     <br> Title, muestra el título de la página en la pestaña del navegador. Justo en la parte superior. <br>
-                    <br> 
+                    <br> Body, acá se programa todo lo que el usuario podrá ver. Botones, cajas, secciones, imagen, texto, video, etc. <br>
+                    <br> H1, es una etiqueta de título nivel 1. Por página debe de existir solo 1, no puedes utilizar más, o puede afectar el posicionmineto SEO.
+                </p>
+                <br>
+                <br>
+                <p>
+                    Para abrir la página que acabas de crear, bastará con ir al lugar dónde lo guardaste al inicio, das doble clic sobre el y listo, acabas de crear tu primer página web con un ¡Hola mundo!.
                 </p>
             </div>
         </div>
