@@ -89,7 +89,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #111;
+    padding: 10px 0;
 }
 .navbar .max-width{
     display: flex;
@@ -215,9 +216,14 @@ section .title::after{
 }
 
 /* about section styling */
-.about .title::after{
+.html_basico .title::after{
     content: "Básico";
 }
+
+.html_intermedio .title::after{
+    content: "Intermedio";
+}
+
 .about .about-content .left{
     width: 45%;
 }
@@ -552,6 +558,15 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+table{
+    text-align: center;
+}
+
+table th{
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 3px;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {

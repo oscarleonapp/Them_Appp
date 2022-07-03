@@ -48,8 +48,8 @@
         </div>
     </section>
  -->
-    <!-- about section start -->
-    <section class="about" id="about">
+    <!-- about section HTML Básico -->
+    <section class="about html_basico" id="html_bas">
         <div class="max-width">
             <h2 class="title">HTML</h2>
             <!--
@@ -88,6 +88,13 @@
                         Ejemplo de la apertura de una etiqueta &lt;etiqueta&gt;. La mayoria de las etiquetas deben cerrarse y para ello agreamos una barra inclinada "/", quedando la etiqueta cerrada de esta forma &lt;/etiqueta&gt;.
                     </p>
                     <br>
+                    <p>
+                        ¿Y como sabemos cuando cerrar una etiqueta?
+                        <br>
+                        <br>
+                        Las etiquetas que se deben cerrar son las que tienen contenido dentro de ellas. Por ejempo: &lt;p&gt;esta es una etiqueta de parráfo&lt;/p&gt;.
+                    </p>
+                    <br>
                     <h3>Atributos/Propiedades de las etiquetas</h3>
                     <p>
                         El atributo de una etiqueta, en palabras simples, son las carácteristicas que podemos modificar. Para establecer una atributo debemos definir entre comillas su valor. <br>
@@ -105,8 +112,12 @@
                         En el ejemplo estamos definiendo una etiqueta de input(entrada) y un atributo type(tipo), a ese atributo se le asigno el valor text(texto). <br>
                         <br> Cabe mencionar que una etiqueta puede tener varios atributos, eso dependenderá de las necesidades que tengamos.
                     </p>
+                    <br>
                     <h3>Etiquetas</h3>
-                    <table>
+                    <p>En este apartado están las etiquetas que se utilizan con más frecuencía, no es un listado de todas las etiquetas que existen.
+                    </p>
+                    <br>
+                    <table class="table">
                         <tr>
                             <th></th>
                             <th scope="col">Etiqueta</th>
@@ -119,11 +130,38 @@
                             <td>Encabezado de primer nivel</td>
                             <td>&lt;h1&gt;&lt;/h1&gt;</td>
                         </tr>
+                        <tr>
+                            <td>2)</td>
+                            <td>br</td>
+                            <td>Crea un salto de línea</td>
+                            <td>&lt;br&gt;</td>
+                        </tr>
                     </table>
                 </div>
             </div>
         </div>
     </section>
+
+        <!-- about section HTML Intermedio -->
+        <section class="about html_intermedio" id="html_inter">
+            <div class="max-width">
+                <h2 class="title">HTML</h2>
+                <!--
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="images/profile-1.jpeg" alt="">
+                    </div>
+                    -->
+                    <div class="column right">
+                        <h3>Archivo index.html</h3>
+                        <p>Los <strong>servidores</strong> tienen en su configuración interna mostrar como primer página el archivo. <br>
+                          <br> Por ejemplo: Entras a tu navegador y buscas www.facebook.com, el sitio de Facebook tiene muchas páginas internas y seria una tarea imposible para el servidor saber que página seleccionar de entre todas para mostrartela.<br>
+                          <br> Es por ello que se configura un index, para decirle al servidor esta es la págia que deseo que muestres cuando me busquen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!-- services section start 
     <section class="services" id="services">
