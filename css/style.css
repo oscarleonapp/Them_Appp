@@ -77,6 +77,14 @@ section .title::after{
     transform: translateX(-50%);
 }
 
+h4 {
+    color: crimson;
+}
+
+strong{
+    color: crimson;
+}
+
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -222,6 +230,10 @@ section .title::after{
 
 .html_intermedio .title::after{
     content: "Intermedio";
+}
+
+.html_avanzado .title::after{
+    content: "Avanzando";
 }
 
 .about .about-content .left{

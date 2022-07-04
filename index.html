@@ -250,13 +250,31 @@
                             <td>16)</td>
                             <td>a</td>
                             <td>Crear enlaces</td>
-                            <td>&lt;a&gt;&lt;/a&gt;</td>
+                            <td>&lt;a href=""&gt;&lt;/a&gt;</td>
                         </tr>
                         <tr>
                             <td>17)</td>
                             <td>div</td>
                             <td>Divisor de contenido</td>
                             <td>&lt;div&gt;&lt;/div&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>18)</td>
+                            <td>ul</td>
+                            <td>Lista desordenada</td>
+                            <td>&lt;ul&gt;&lt;/ul&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>19)</td>
+                            <td>ol</td>
+                            <td>Lista ordenada</td>
+                            <td>&lt;ol&gt;&lt;/ol&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>20)</td>
+                            <td>li</td>
+                            <td>Elemento de la lista</td>
+                            <td>&lt;li&gt;&lt;/li&gt;</td>
                         </tr>
                     </table>
                 </article>
@@ -310,6 +328,7 @@
                     <p>Ahora que guardaste tu archivo, vas a escribir tu primer ¡Hola mundo!. Escribe el siguiente código (no lo copies y pegues).</p>
                 <br>
                 <h4>Ejercicio #1</h4>
+                <br>
                 <article>
                     &lt;!DOCTYPE html&gt; <br>
                     &lt;html&gt; <br>
@@ -322,19 +341,19 @@
                     &lt;/html&gt;
                 </article>
                 <br>
-                <p>Explicación del código</p>
+                <h4>Explicación del código</h4>
                 <br>
-                <p>El !DOCTYPE indica que el documento es de tipo html en su última versión (v5).</p>
+                <p>El <strong>!DOCTYPE</strong> indica que el documento es de tipo html en su última versión (v5).</p>
                 <br>
-                <p>Html, contiene toda la página, lo que se muestra al usuario como lo que no.</p>
+                <p><strong>Html</strong>, contiene toda la página, lo que se muestra al usuario como lo que no.</p>
                 <br>
-                <p>Head, acá programaremos todo aquello que el usuario no verá, a excepción de la etiqueta title. Acá es donde se colocan las configuraciones y enlaces de la página.</p>
+                <p><strong>Head</strong>, acá programaremos todo aquello que el usuario no verá, a excepción de la etiqueta title. Acá es donde se colocan las configuraciones y enlaces de la página.</p>
                 <br>
-                <p>Title, muestra el título de la página en la pestaña del navegador. Justo en la parte superior.</p>
+                <p><strong>Title</strong>, muestra el título de la página en la pestaña del navegador. Justo en la parte superior.</p>
                 <br>
-                <p>Body, acá se programa todo lo que el usuario podrá ver. Botones, cajas, secciones, imagen, texto, video, etc.</p>
+                <p><strong>Body</strong>, acá se programa todo lo que el usuario podrá ver. Botones, cajas, secciones, imagen, texto, video, etc.</p>
                 <br>
-                <p>H1, es una etiqueta de título nivel 1. Por página debe de existir solo 1, no puedes utilizar más, o puede afectar el posicionmineto SEO.</p>
+                <p><strong>H1</strong>, es una etiqueta de título nivel 1. Por página debe de existir solo 1, no puedes utilizar más, o puede afectar el posicionmineto SEO.</p>
                 <br>
                 <p>Para abrir la página que acabas de crear, bastará con ir al lugar dónde lo guardaste al inicio, das doble clic sobre el y listo, acabas de crear tu primer página web con un ¡Hola mundo!.</p>
                 </article>
@@ -343,19 +362,19 @@
                     <h3>Tipos de rutas</h3>
                     <p>Las rutas son ubicaciones a los cuales podemos redirigir, por ejemplo: www.facebook.com es una ruta.</p>
                     <br>
-                    <p>Rutas Locales: son las que en el mismo lugar que se encuentra nuestra página web.</p>
+                    <p><strong>Rutas Locales:</strong> son las que en el mismo lugar que se encuentra nuestra página web.</p>
                     <br>
-                    <p>Ejemplo ruta local: <br> &lt;a href="contacto.html"&gt;Contacto&lt;/a&gt;</p>
+                    <p><strong>Ejemplo ruta local:</strong> <br> &lt;a href="contacto.html"&gt;Contacto&lt;/a&gt;</p>
                     <br>
-                    <p>Ruta local dentro de otra carpeta: <br> &lt;a href="carpeta/contacto.html"&gt;Contacto&lt;/a&gt;</p>
+                    <p><strong>Ruta local dentro de otra carpeta:</strong> <br> &lt;a href="carpeta/contacto.html"&gt;Contacto&lt;/a&gt;</p>
                     <br>
-                    <p>Rutas Externas: son las que redirigen fuera de nuestro sitio web.</p>
+                    <p><strong>Rutas Externas:</strong> son las que redirigen fuera de nuestro sitio web.</p>
                     <br>
-                    <p>Ejemplo ruta externa: <br> &lt;a href="https://facebook.com"&gt;Facebook&lt;/a&gt;</p>
+                    <p><strong>Ejemplo ruta externa:</strong> <br> &lt;a href="https://facebook.com"&gt;Facebook&lt;/a&gt;</p>
                     <br>
-                    <p>HTTPS: Prótocolo de transferencia de hiper texto, este método es el que sirve para enlazar sitios externos.</p>
+                    <p><strong>HTTPS:</strong> Prótocolo de transferencia de hiper texto, este método es el que sirve para enlazar sitios externos.</p>
                     <br>
-                    <p>¿Cómo volver entre carpetas?
+                    <p><strong>¿Cómo volver entre carpetas?</strong>
                         <br> Bastará con colocar .. para volver.
                         <br> Ejemplo: &lt;a href="../index.html"&gt;Inicio&lt;/a&gt;</p>
                     </p>
@@ -391,13 +410,112 @@
                     &lt;a href="../index.html"&gt;Ir a inicio&lt;/a&gt; <br>
                     &lt;/body&gt; <br>
                     &lt;/html&gt;
-             </article>
+                </article>
+                </article>
+                <br>
+                <article>
+                    <h3>Hacer un salto de línea:</h3>
+                    <p>Cuando se esta redactando un texto es necesario hacer saltos de líneas (dar enter),
+                        pero en programación no funciona solo dando un enter. En HTML tenemos la etiqueta &lt;br&gt;, para realizar este salto de línea.
+                    </p>
+                    <br>
+                    <h3>Textos en negrita</h3>
+                    <p>Una función muy utilizada en textos es la de colocarlos en negrita, y esto lo podemos lograr en HTML con las siguientes etiquetas: &lt;b&gt;Texto&lt;/b&gt; ó &lt;strong&gt;Texto&lt;/strong&gt;.</p>
+                    <br>
+                    <h3>Abrir enlaces en otra pestaña</h3>
+                    <p>Las etiquetas poseen atributos/propiedades que podemos modificar para que realicen acciones que deseamos, con la etiqueta &lt;a href="https://google.com"&gt;Google&lt;/&gt;, estamos utilizando el atributo href="", para idicarle la dirección.</p>
+                    <br>
+                    <p>Para decirle que abrá la dirección en otra página utilizaremos el atributo target="_blank", esto le indica al navegador que el link se abra en una nueva pestaña.</p>
+                    <br>
+                    <p><strong>Ejemplo:</strong><br>&lt;a href="https://google.com" target="_blank"&gt;Google&lt;/a&gt;</p>
+                </article>
+                <br>
+                <article>
+                    <h3>Listas</h3>
+                    <p>Para crear un lista utlizamos la etiqueta &lt;ul&gt;&lt;/ul&gt;, podríamos decir que tiene el rol de "papel". Con ella creamos una lista desordenada (unordered list/ul). Y para crear un lista ordenada utilzamos &lt;ol&gt;&lt;/ol&gt; ordered list (ol).</p>
+                    <br>
+                    <p>Para crear los elementos que compenen la lista utilizamos &lt;li&gt;&lt;/li&gt;</p>, esta etiqueta toma el rol de lo que escribimos en la lista.
+                    <h4>Ejemplo:</h4>
+                    <p>Lista de compra para el super</p>
+                    <br>
+                    <article>
+                        &lt;ul&gt; <br>
+                        &lt;li&gt;Cereal&lt;/li&gt; <br>
+                        &lt;li&gt;Huevos&lt;/li&gt; <br>
+                        &lt;li&gt;Café&lt;/li&gt; <br>
+                        &lt;ul&gt;
+                    </article>
+                    <p><strong><a href="">Ver resultado de lista desordenada</a></strong></p>
+                    <br>
+                    <article>
+                        &lt;ol&gt; <br>
+                        &lt;li&gt;Pan&lt;/li&gt; <br>
+                        &lt;li&gt;Harina&lt;/li&gt; <br>
+                        &lt;li&gt;Queso&lt;/li&gt; <br>
+                        &lt;ol&gt;
+                    </article>
+                    <p><strong><a href="">Ver resultado de lista ordenada</a></strong></p>
                 </article>
             </div>
         </div>
         </div>
     </section>
 
+    <!-- about section HTML Avanzado -->
+    <section class="about html_avanzado" id="html_avanz">
+        <div class="max-width">
+            <h2 class="title">HTML</h2>
+            <!--
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="images/profile-1.jpeg" alt="">
+                    </div>
+                    -->
+            <div class="column right">
+                <article>
+                    <h3>Multimedia</h3>
+                    <p>En HTML se pueden mostrar imagenes, videos y audios. Pareciera algo muy complicado de realizar, pero no es así, a continuación podrás comprenderlo.</p>
+                    <br>
+                    <h4>Mostrar una imagen</h4>
+                    <p>Existe una etiqueta llamada &lt;img&gt;, dicha etiqueta no necesita ser cerrada, ya que el contenido a mostrar lo hace con un atributo y no entre la apertura y cierre.</p>
+                    <br>
+                    <article>
+                        &lt;html&gt; <br>
+                        &lt;head&gt; <br>
+                        &lt;title&gt;Mi primera imagen en HTML&lt;/title&gt; <br>
+                        &lt;body&gt; <br>
+                        &lt;img src="imagen.png" alt="codificando" width="300px"&gt; <br>
+                        &lt;/body&gt; <br>
+                        &lt;/html&gt;
+                    </article>
+                    <br>
+                    <p>Resultado:</p>
+                    <img src="source/imagenes/insertar_imagen.png" alt="codificando" width="300px">
+                    <br>
+                    <p>Explicación del código:</p>
+                    <p>H</p>
+                </article>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- about section HTML Intermedio 
+    <section class="about html_avanzado" id="html_avanz">
+        <div class="max-width">
+            <h2 class="title">HTML</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="images/profile-1.jpeg" alt="">
+                    </div>
+                    
+            <div class="column right">
+
+            </div>
+        </div>
+        </div>
+    </section>
+-->
     <!-- services section start 
     <section class="services" id="services">
         <div class="max-width">
