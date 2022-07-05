@@ -492,8 +492,46 @@
                     <p>Resultado:</p>
                     <img src="source/imagenes/insertar_imagen.png" alt="codificando" width="300px">
                     <br>
-                    <p>Explicación del código:</p>
-                    <p>H</p>
+                    <p><strong>Explicación del código:</strong></p>
+                    <p>La etiqueta para insertar imagen, necesita del atributo <strong>src=""</strong> (source/recurso)  para hacer el llamado al archivo, este puede estar
+                        almacenado de forma local o externamente. </p>
+                    <br>
+                    <p>El atributo <strong>alt=""</strong>sirve para el Search Engine Optimatization (SEO), también para dispositivos que ayudan a personas
+                    con problemas de la visión, leen la descripción de alt="".</p>
+                    <br>
+                    <p><strong>width=""</strong>, se utiliza para darle un ancho especifico a la imagen, también va compañada de <strong>higth=""</strong>, para definir el alto. <strong>300px</strong> son los pixeles
+                    que ocupará la imagen en nuestro sitio web.</p>
+                    <br>
+                    <p>Seguramente te preguntas que pasa sino colocas el heigth="", la imagen tendrá el mismo valor de width para heigth, siendo esta una imagen cuadrada.</p>
+                    <br>
+                    <p>Cabe mencionar y recalcar que html es solo para la estructura, no para definir estilos, es por ello que si se modifica el tamaño
+                        de la imagen, debe realizarse con CSS. Pero para fines educativos es necesario que conozcas estas dos propiedades.
+                    </p>
+                    <br>
+                    <p>A la practica de moficar el estilo desde html, se le conoce como <strong>estilos en línea</strong>. Cuándo te adentrés en CSS comprenderas mejor esta definición.</p>
+                    <br>
+                    <h4>Mostrar un video</h4>
+                    <p>A difernecia de la etiqueta para mostrar una imagen, la etiqueta para video si debe cerrarse quedando
+                        de la siguiente manera: &lt;video src=""&gt;&lt;/video&gt;. La ruta que se le pase al atributo src="" debe ser un video, con esto
+                        nos referimos a que el formato debe ser .avi .mp4 .mov etc.
+                    </p>
+                    <br>
+                    <p>Para terminar de configurar nuestro video, debemos hacer uso del atributo controls="", este atributo ya tiene un valor configurado
+                        por el navegador, así que entre las comillas no debe de ir nada.
+                    </p>
+                    <br>
+                    <article>
+                        &lt;html&gt; <br>
+                        &lt;head&gt; <br>
+                        &lt;title&gt;Mi primer video en HTML&lt;/title&gt; <br>
+                        &lt;body&gt; <br>
+                        &lt;video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls=""&gt; <br>
+                        &lt;/body&gt; <br>
+                        &lt;/html&gt;
+                    </article>
+                    <br>
+                    <p>Resultado:</p>
+                    <video src="source/imagenes/video.ogg" controls=""></video>
                 </article>
             </div>
         </div>
