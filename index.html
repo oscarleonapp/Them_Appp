@@ -610,7 +610,83 @@
                 <p>Lo mismo que sucede en el ejemplo anterior: en tu página web hay un formulario con un espacio que dice envia tu comentario (input), 
                     se envia y llega al servidor (procesamiento), el servidor devuelve gracias por comentar (output/salida).</p>
                 <br>
-                <h4>Tipos de inputs</h4>
+                <h3>Tipos de inputs</h3>
+                <br>
+                <p><strong>Tipo texto</strong></p>
+                <p>&lt;input type="text"&gt;</p>
+                <input type="text">
+                <br>
+                <br>
+                <p><strong>Tipo contraseña</strong></p>
+                <p>&lt;input type="password"&gt;</p>
+                <input type="password">
+                <br>
+                <br>
+                <p><strong>Tipo número</strong></p>
+                <p>&lt;input type="number"&gt;</p>
+                <input type="number">
+                <br>
+                <br>
+                <p><strong>Tipo correo</strong></p>
+                <p>&lt;input type="email"&gt;</p>
+                <input type="email">
+                <br>
+                <br>
+                <p><strong>Tipo color</strong></p>
+                <p>&lt;input type="color"&gt;</p>
+                <input type="color">
+                <br>
+                <br>
+                <p><strong>Tipo rango</strong></p>
+                <p>&lt;input type="range" min="1" max="10"&gt;</p>
+                <input type="range" min="1" max="10">
+                <br>
+                <br>
+                <p><strong>Tipo fecha</strong></p>
+                <p>&lt;input type="date"&gt;</p>
+                <input type="date">
+                <br>
+                <br>
+                <p><strong>Tipo tiempo</strong></p>
+                <p>&lt;input type="time"&gt;</p>
+                <input type="time">
+                <br>
+                <br>
+                <p><strong>Tipo botón</strong></p>
+                <p>&lt;input type="button"&gt;</p>
+                <input type="button" value="Botón">
+                <br>
+                <br>
+                <p><strong>Tipo envió</strong></p>
+                <p>&lt;input type="submit"&gt;</p>
+                <input type="submit" value="Enviar">
+                <br>
+                <br>
+                <h3>Vamos a crear nuestro primer formulario</h3>
+                <p>Para el ejemplo, vamos a utilizar los inputs de texto, correo, contraseña y enviar. Utilizaremos un atributo nuevo llamado placeholder="".</p>
+                <br>
+                <article>
+                    &lt;html&gt; <br>
+                    &lt;head&gt; <br>
+                    &lt;title&gt;Formulario&lt;/title&gt; <br>
+                    &lt;body&gt; <br>
+                    &lt;form&gt; <br>
+                    &lt;input type="text" placeholder="Nombre"&gt;&lt;br&gt; <br>
+                    &lt;input type="email" placeholder="Correo"&gt;&lt;br&gt; <br>
+                    &lt;input type="password" placeholder="Contraseña"&gt;&lt;br&gt; <br>
+                    &lt;input type="submit" value="Enviar"&gt;&lt;br&gt; <br>
+                    &lt;/form&gt; <br>
+                    &lt;/body&gt; <br>
+                    &lt;/html&gt;
+                </article>
+                <br>
+                <p>Resultado:</p>
+                <form>
+                    <input type="text" placeholder="Nombre"> <br>
+                    <input type="email" placeholder="Correo"> <br>
+                    <input type="password" placeholder="Contraseña"> <br>
+                    <input type="submit" value="Enviar">
+                </form>
             </div>
         </div>
         </div>
