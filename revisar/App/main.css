@@ -29,19 +29,20 @@ h1{
 }
 
 .navsup{
-background:#3E416E;
-color: #FFFFFF;
-width: 100%;
-height: 50px;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-padding: 10px;
-align-items: center;
-justify-content: center;
-margin: 0 auto;
-display: flex;
+    height: 50px;
+    color: #FFFFFF;
+    background: #3E416E;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    margin: 0 auto;
+    left:0; 
+    top:0;
+    z-index: 1;
+    width:100%; 
+    padding:15px
 }
 
 .navigation{
