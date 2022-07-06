@@ -130,6 +130,10 @@ h1{
     color: #F5DC1D;
 }
 
+.color_settings .icon {
+    color: aquamarine;
+}
+
 /*INACTIVE COLORS*/
 .color_in .icon {
     color: #AAABB0;
