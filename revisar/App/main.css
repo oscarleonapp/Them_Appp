@@ -141,20 +141,18 @@ justify-content: center;
 }
 
 .container {
+    margin-top: -250px;
     background-color: #F0F4FD;
     width: 95%;
 }
-
-.contenido{
-    margin-top: 20px;
-    background-color: #FFFFFF;
-    width: 90%;
-}
-
 
 h3{
     text-align: center;
     color: #3E416E;
     margin-top: 30px;
     font-size: 16px;
+}
+
+p{
+    text-align: center;
 }
