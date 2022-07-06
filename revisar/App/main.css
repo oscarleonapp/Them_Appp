@@ -129,7 +129,8 @@ justify-content: center;
     /*TEMAS*/
 .tema {
     background-color: #FFFFFF;
-    width: 100%;
+    min-width: 400px;
+    max-width: 600px;
     padding: 0.2rem;
     border-radius: 4px 4px 4px 4px;
     margin: 0 auto;
@@ -141,9 +142,11 @@ justify-content: center;
 }
 
 .container {
-    margin-top: -250px;
     background-color: #F0F4FD;
     width: 95%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
 }
 
 h3{
