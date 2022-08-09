@@ -148,6 +148,9 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    color: #3E416E;
+    padding: 3rem;
+    line-height: 20px;
 }
 
 .titulo_nav {
